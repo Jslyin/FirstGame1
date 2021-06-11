@@ -136,6 +136,8 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -158,7 +160,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f95de09909f25ee44bf95f8f0a7d349e, type: 3}
   m_Name: 
@@ -231,7 +233,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f95de09909f25ee44bf95f8f0a7d349e, type: 3}
   m_Name: 
@@ -240,3 +242,38 @@ MonoBehaviour:
   myArray1: 000000000000000000000000
   myArray2: 010000000200000003000000
   myArray3: 01000000020000000300000004000000050000000600000007000000
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bedcf5b28359204eb24a04de98f46d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myFilms:
+  - "\u0425\u043E\u0434\u044F\u0447\u0438\u0435"
+  - Batman
+  - "\u0425\u0430\u043B\u043A"
+  - "\u041E\u0431\u043B\u0438\u0432\u0438\u043E\u043D"
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 296d410516afaec47ac740b6dc519a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars: []
+  myCars:
+  - "\u041F\u043E\u0440\u0448\u0435"
+  - "\u041B\u0430\u043C\u0431\u0430"
+  - "\u0416\u0438\u0433\u0443\u043B\u044C"
+  - "\u0425\u0430\u043C\u0435\u0440"
